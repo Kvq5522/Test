@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+
+    <form class="form">
+        <div class="head">
+            <h1 class="title big"><strong>WELCOME</strong>!</h1>
+            <h1 class="title small">Sign up</h1>
+            <h2>Already a user? <a class="bold" href="login.html">Sign in</a></h2>
+            <h2 class="big">
+                Visit our HOME page!
+            </h2>
+            <div class="error"></div>
+        </div>
+
+        <div class="form-usernname">
+            <input type="email" class="input" id="email" required placeholder=" " autocomplete="email" />
+            <label for="email" class="label">Email</label>
+        </div>
+
+        <div class="form-password">
+            <input type="password" class="input password" id="password" minlength="6" required placeholder=" " autocomplete="new-password" />
+            <label for="password" class="label">Password</label>
+            <i class="fas fa-eye" id="toggle-pw"></i>
+        </div>
+
+        <input type="submit" class="submit bold" value="Register" />
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html> 
